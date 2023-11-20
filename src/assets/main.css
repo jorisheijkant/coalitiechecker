@@ -1,0 +1,61 @@
+@import './base.css';
+
+h1, h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.header {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.explainer {
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.coalitions, .all-parties {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coalition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coalition .parties {
+  font-weight: 700;
+  text-align: center;
+}
