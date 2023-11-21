@@ -17,6 +17,11 @@ export const usePartiesStore = defineStore('parties', {
           does_not_rule_with: []
         },
         {
+          name: 'NSC',
+          senate_seats: 0,
+          parliament_projected: 21
+        },
+        {
           name: 'GLPvdA',
           senate_seats: 14,
           parliament_projected: 27,
