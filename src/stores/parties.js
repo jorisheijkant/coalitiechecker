@@ -7,24 +7,24 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'VVD',
           senate_seats: 10,
-          parliament_projected: 27,
+          parliament_projected: 28,
           does_not_rule_with: []
         },
         {
           name: 'BBB',
           senate_seats: 16,
-          parliament_projected: 6,
+          parliament_projected: 7,
           does_not_rule_with: []
         },
         {
           name: 'NSC',
           senate_seats: 0,
-          parliament_projected: 21
+          parliament_projected: 22
         },
         {
           name: 'GLPvdA',
           senate_seats: 14,
-          parliament_projected: 27,
+          parliament_projected: 23,
           does_not_rule_with: ['PVV', 'FvD']
         },
         {
@@ -36,20 +36,20 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'D66',
           senate_seats: 5,
-          parliament_projected: 8,
+          parliament_projected: 9,
           does_not_rule_with: ['PVV', 'FvD']
         },
         {
           name: 'PVV',
           senate_seats: 4,
-          parliament_projected: 26,
+          parliament_projected: 25,
           does_not_rule_with: []
         },
         {
           name: 'SP',
           senate_seats: 3,
-          parliament_projected: 6,
-          does_not_rule_with: []
+          parliament_projected: 5,
+          does_not_rule_with: ['PVV', 'FvD']
         },
         {
           name: 'CU',
@@ -60,8 +60,8 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'PvdD',
           senate_seats: 3,
-          parliament_projected: 5,
-          does_not_rule_with: []
+          parliament_projected: 6,
+          does_not_rule_with: ['PVV', 'FvD']
         },
         {
           name: 'JA21',
@@ -102,7 +102,7 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'DENK',
           senate_seats: 0,
-          parliament_projected: 3,
+          parliament_projected: 4,
           does_not_rule_with: []
         },
         {
