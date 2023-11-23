@@ -7,7 +7,7 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'VVD',
           senate_seats: 10,
-          parliament_projected: 28,
+          parliament_projected: 24,
           does_not_rule_with: []
         },
         {
@@ -19,18 +19,18 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'NSC',
           senate_seats: 0,
-          parliament_projected: 22
+          parliament_projected: 20
         },
         {
           name: 'GLPvdA',
           senate_seats: 14,
-          parliament_projected: 23,
+          parliament_projected: 25,
           does_not_rule_with: ['PVV', 'FvD']
         },
         {
           name: 'CDA',
           senate_seats: 6,
-          parliament_projected: 4,
+          parliament_projected: 5,
           does_not_rule_with: []
         },
         {
@@ -42,7 +42,7 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'PVV',
           senate_seats: 4,
-          parliament_projected: 25,
+          parliament_projected: 37,
           does_not_rule_with: []
         },
         {
@@ -54,31 +54,31 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'CU',
           senate_seats: 3,
-          parliament_projected: 4,
+          parliament_projected: 3,
           does_not_rule_with: []
         },
         {
           name: 'PvdD',
           senate_seats: 3,
-          parliament_projected: 6,
+          parliament_projected: 3,
           does_not_rule_with: ['PVV', 'FvD']
         },
         {
           name: 'JA21',
           senate_seats: 3,
-          parliament_projected: 2,
+          parliament_projected: 1,
           does_not_rule_with: []
         },
         {
           name: 'FvD',
           senate_seats: 2,
-          parliament_projected: 4,
+          parliament_projected: 3,
           does_not_rule_with: []
         },
         {
           name: 'Volt',
           senate_seats: 2,
-          parliament_projected: 3,
+          parliament_projected: 2,
           does_not_rule_with: []
         },
         {
@@ -102,13 +102,13 @@ export const usePartiesStore = defineStore('parties', {
         {
           name: 'DENK',
           senate_seats: 0,
-          parliament_projected: 4,
+          parliament_projected: 3,
           does_not_rule_with: []
         },
         {
           name: 'BVNL',
           senate_seats: 0,
-          parliament_projected: 1,
+          parliament_projected: 0,
           does_not_rule_with: []
         }
       ]
